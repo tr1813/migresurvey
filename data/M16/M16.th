@@ -39,6 +39,7 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	equate 12@rockroll 6@boogywoo
 	
 	join brezno-1p@brezno entrance-6p@entrance
+	join migcon-1p@migcon level2s-1p@level2s
 	join migconleft-1p@migconleft hotline-2p@hotline
 	join migconleft-2p@migconleft migcon-1p@migcon
 	join migconleft-2p@migconleft migcondown-1p@migcondown
@@ -140,7 +141,12 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	
 	join hotline-1p@hotline lostcity-1p@lostcity
 	join baddybag-3p@baddybag goodbag-1p@goodbag
-
+	join window-1p@window galact3-1p@galact3
+	join tamoka-1p@tamoka hydrant-2p@hydrant
+	join hydrant-3p@hydrant hydrant2-1p@hydrant2
+	join offhyd-1p@offhyd hydrant-1p@hydrant
+	join offhyd-2p@offhyd hydrant-1p@hydrant
+	join offhyd-3p@offhyd hydrant-2p@hydrant
 	join hotel-1p@hotel sajeta-3p@sajeta
 	join coldfeet-1p@coldfeet god-1p@god
 	join deep-1p@deep god-5p@god
@@ -157,6 +163,9 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join tamoka-1p@tamoka galact1-1p@galact1
 	join galact2-1p@galact2 galact1-1p@galact1
 	join galact2-2p@galact2 galact3-1p@galact3
+	join doh-2p@doh pinkp-1p@pinkp
+	join frogshit-2p@frogshit batshitb-1p@batshitb
+	join batshitb-1p@batshitb batshit2-1p@batshit2
 	
 	join migcon2-1e@migcon2 migconleft-1e@migconleft
 	join migcon2-1e@migcon2 migcondown-1e@migcondown
@@ -170,7 +179,7 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join batshit2-1e@batshit2 mower-1e@mower
 	join batshitb-1e@batshitb batshit2-1e@batshit2
 	join batshita-1e@batshita shordrop-1e@shordrop
-	join batshita-1e@batshita batshit1-1e@batshit1
+	join batshita-1e@batshita frogshit-1e@frogshit
 	join batshit1-1e@batshit1 batshitb-1e@batshitb
 	join woft-2e@woft hotline-1e@hotline
 	join woft-2e@woft shordrop-1e@shordrop
@@ -180,6 +189,24 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join l1@titanic:end l1@migcon:0
 	join l2@titanic l2@migcon
 	join l3@titanic l3@migcon
+	join hotel-1e@hotel pinkp-1e@pinkp
+	join pinkp-1e@pinkp doh-1e@doh
+	join doh-1e@doh coldfeet-1e@coldfeet
+	join deep-1e@deep god-2e@god
+	join sifon-1e@sifon fa999-1e@fa999
+	join fa999-1e@fa999 glory-1e@glory
+	join glory-1e@glory god-1e@god
+	join cowboys-1e@cowboys paradox-1e@paradox
+	join paradox-1e@paradox pencil-1e@pencil
+	join coldfeet-1e@coldfeet god-1e@god
+	join rameses-1e@rameses cowboys-1e@cowboys
+	join teotihuacan-1e@teotihuacan sinners-1e@sinners
+	join sinners-1e@sinners god-1e@god
+	join teotihuacan-1e@teotihuacan glory-1e@glory
+	join rameses-1e@rameses god-1e@god
+	join goodbag-1e@goodbag baddybag-1e@baddybag
+	join goodbag-1e@goodbag hotline-1e@hotline
+	join hotline-1e@hotline lostcity-1e@lostcity
 
 	###__________1998____________###
 	
@@ -225,6 +252,19 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join adder-1p@adder hotel-2p@hotel
 	join adder-1p@adder elephant-3p@elephant
 	join waterloo-1p@waterloo bosh-1p@bosh
+	join fame-1p@fame marwood-1p@marwood
+	join fame-2p@fame sump1-1p@sump1
+	join sump1-1p@sump1 sump2-2p@sump2
+	join fame-1p@fame pencil-3p@pencil
+	join trunk-1p@trunk elephant-1p@elephant
+	join mousse-1p@mousse elephant-1p@elephant
+	join bridge-1p@bridge hotel-1p@hotel
+	join arrow-1p@arrow sajeta-2p@sajeta
+	join olympic-1p@olympic titanic-3p@titanic
+	join polter-2p@polter exhib-2p@exhib
+	join polter-1p@polter disillusion-1p@disillusion
+	join waffles-1p@waffles disillusion-1p@disillusion
+
 	join bridge-1e@bridge sajeta-3e@sajeta
 	join e1_l1@adder e1_l1@hotel
 	join e1_l2@adder e1_l2@hotel
@@ -239,12 +279,10 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join polter-1e@polter exhib-1e@exhib
 	join disillusion-1e@disillusion polter-1e@polter
 	join disillusion-1e@disillusion waffles-1e@waffles
-	join fame-1p@fame marwood-1p@marwood
-	join fame-2p@fame sump1-1p@sump1
-	join sump1-1p@sump1 sump2-2p@sump2
-	join fame-1p@fame pencil-3p@pencil
-	join trunk-1p@trunk elephant-1p@elephant
-	join mousse-1p@mousse elephant-1p@elephant
+	join sump2-1e@sump2 sump1-1e@sump1
+	join fame-1e@fame sump1-1e@sump1
+	join fame-1e@fame marwood-1e@marwood
+	join fame-1e@fame pencil-1e@pencil
 
 
 	###__________1999____________###
@@ -304,6 +342,8 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join skalar2-1p@skalar2 skalar-1p@skalar
 	join obelix-1p@obelix skalar2-1p@skalar2
 	join getafix-1p@getafix obelix-1p@obelix
+	join spiny-1p@spiny brezno-3p@brezno
+	join spiny-1p@spiny dinsdale-1p@dinsdale
 
 	
 	
@@ -325,6 +365,8 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	join penelope-3p@penelope gloworm-1p@gloworm
 	join gloworm_l2@gloworm below55_l2@below55
 	join gloworm_l1@gloworm below55_l1@below55
+	join boogywoo-1p@boogywoo toilet-1p@toilet
+
 	
 	###__________2001____________###
 	
@@ -333,6 +375,7 @@ survey M16 -title "M16 part of System Migovec" -attr cadastral_n 6001
 	equate 6@carwash 9@oratory
 
 	join carwash-1e@carwash oratory-1e@oratory
+	join carwash-3p@carwash oratory-1p@oratory
 	
 	
 	# UNSORTED EQUATES

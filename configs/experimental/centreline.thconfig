@@ -1,0 +1,3 @@
+source "../../data/system_migovec.th"
+
+export database -o ../../outputs/system_migovec.csv

@@ -9,8 +9,7 @@ map m-all-e -projection extended
 	m-below_mig_country-e
 	m-northern_line-e
 	m-titanic_branch-e
-	
-	
+	m-old_deep-e	
 endmap
 
 map m-level2-e -projection extended
@@ -37,7 +36,10 @@ map m-entrance-e -projection extended
 	m-all-e@entrance
 	m-all-e@hotline
 	m-all-e@brezno
+	m-all-e@lostcity
 	m-all-e@woft
+	m-all-e@goodbag
+	m-all-e@baddybag
     m-all-e@batshit2
     m-all-e@batshit1
     m-all-e@frogshit
@@ -105,6 +107,29 @@ map m-poltergeist-e -projection extended
 	m-all-e@polter
 	m-all-e@waffles
 	m-all-e@disillusion
+endmap
+
+map m-old_deep-e -projection extended
+	m-all-e@pinkp
+	m-all-e@doh
+	m-all-e@coldfeet
+	m-all-e@wonder
+	m-all-e@rameses
+
+	m-all-e@cowboys
+	m-all-e@paradox
+	m-all-e@teotihuacan
+	m-all-e@sinners
+	m-all-e@god
+	m-all-e@deep
+	m-all-e@glory
+	m-all-e@fa999
+	m-all-e@sifon
+	m-all-e@pencil
+	m-all-e@marwood
+	m-all-e@fame
+	m-all-e@sump1
+	m-all-e@sump2
 endmap
 
 centreline
@@ -192,7 +217,6 @@ extend right 1@sinners 0@sinners
 extend right 4b@teotihuacan 3@sinners
 extend right 3@sinners 2@sinners
 extend right 2@sinners 1@sinners
-extend left 19@rameses
 
 # Towards connection with Vrtnarija
 extend right 1@adder 2@adder
@@ -215,8 +239,8 @@ extend right 4@woft 3@woft
 extend left 3@woft
 extend right 1@dinsdale
 extend left 11@dinsdale
-extend right 12@goodbag 11@goodbag
-extend right 11@goodbag 
+extend left 12@goodbag 11@goodbag
+extend left 11@goodbag 
 
 extend left 3@hotline 4@hotline
 extend left 4@hotline 5@hotline
@@ -298,6 +322,13 @@ extend left 4@galact4 5@galact4
 extend right 1@hydrant 2@hydrant
 extend right 2@hydrant
 extend left 16@hydrant
+
+# Rameses
+extend right 20@rameses 19@rameses
+extend right 19@rameses 
+extend left 13@rameses 11@rameses
+extend left 8@rameses
+extend left 11@rameses 8@rameses
 
 
 
