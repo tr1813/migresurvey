@@ -114,12 +114,12 @@ if FORMAT == "th2":
 """
 
     th2_file = """
-scrap DELETE-ME-survey-legs-{name}-{projection_short} -projection {projection} -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
+scrap DELETE-ME-survey-legs-{name}-{projection_short} -projection {projection} -scale [7.87402 1 m]
 {lines}
 {names}
 endscrap
 
-scrap {name}-1{projection_short} -projection {projection} -scale [0.0 0.0 500 1000.0 -250 -500 250 500]
+scrap {name}-1{projection_short} -projection {projection} -scale [7.87402 1 m]
 {points}
 endscrap"""
 
